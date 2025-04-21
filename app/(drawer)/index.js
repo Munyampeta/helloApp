@@ -4,18 +4,9 @@ import React from 'react'
 const DrawerHome = () => {
   return (
     <View>
-      <Text>DrawerHomee</Text>
+      <Text>This is drawer home page</Text>
     </View>
   )
-  
-}
-const AmahoroMeza = () => {
-  return (
-    <View>
-      <Text>AmahoroMeza</Text>
-    </View>
-  )
-  
 }
 
 export default DrawerHome

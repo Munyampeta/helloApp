@@ -11,9 +11,9 @@ const TabHome = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}> "Rate my dog"</Text>
+      <Text style={styles.title}>📸 "Nice view from the mountain!"</Text>
       <Image
-        source={require('../../img/img.jpg')}
+        source={require('../../img/view.jpg')}
         style={styles.image}
       />
       <View style={styles.likeSection}>

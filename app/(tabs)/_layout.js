@@ -1,6 +1,6 @@
 import { Tabs } from "expo-router";
 import { FontAwesome } from '@expo/vector-icons'
-export default function RootLayout() {
+export default function Layout() {
     return (
         <Tabs>
             <Tabs.Screen
@@ -18,7 +18,8 @@ export default function RootLayout() {
                     title: 'Profile',
                     tabBarIcon: ({ color }) => <FontAwesome name="user" color={color} size={24} />
                 }}
-            />            <Tabs.Screen
+            />
+            <Tabs.Screen
                 name="settings"
                 options={{
                     headerShown: false,

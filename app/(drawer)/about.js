@@ -4,11 +4,11 @@ import React from 'react'
 const About = () => {
   return (
     <View>
-      <Text>About us</Text>
+      <Text>This is about us page</Text>
     </View>
   )
 }
 
 export default About
 
-const styles = StyleSheet.create({})  
+const styles = StyleSheet.create({})
